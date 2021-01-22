@@ -1,4 +1,4 @@
-# Sidebar menu submenus
+# BOOKIE
+# Vanilla JavaScript bookmarking application
 
-## Unete a Youtube ↙️ 
-[Bedimcode](https://www.youtube.com/c/Bedimcode)
+
