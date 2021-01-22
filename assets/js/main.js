@@ -39,7 +39,7 @@ for (i = 0; i < linkCollapse.length; i++) {
 
 // ====== GET LINK FROM API AND BUILD HTML STRUCTURE ======
 async function getLink(link) {
-  await fetch(`http://api.linkpreview.net/?key=${apiKey}&q=${link}`, {
+  await fetch(`https://api.linkpreview.net/?key=${apiKey}&q=${link}`, {
     method: "GET",
     mode: "cors",
   }).then((res) => {
