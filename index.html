@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./assets/images/warty.jpg">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <title>Bookie | Bookmark All You Want</title>
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">Bookie</a>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+                        <a href="#" class="nav__link">
+                            <ion-icon name="chatbubbles-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Messenger</span>
+                        </a>
+
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="settings-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Settings</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+
+        
+
+        <div class="add-bookmark">
+            <input type="text" placeholder="Add link to bookmark" name="" id="input-field">
+            <input type="button" value="Add" id="add-btn">
+        </div>
+
+        <div class="container">
+
+            <!-- <div class="bookmark">
+                <div class="image-container">
+                    <img id="image" src="" alt="">
+                    <div class="title-container">
+                        <span>Title:</span> <p id="title"></p>
+                    </div>
+                    <div class="desc-container">
+                        <span>Desc:</span> <p id="desc"></p>
+                    </div>
+                    <div class="actions-container">
+                        <span><a class="open-link" id="open-link" href="">Open Link</a></span>
+                        <span><button class="remove"><ion-icon name="trash-outline"></ion-icon></button></span>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+
+
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
